@@ -66,3 +66,16 @@ $ git push -u origin master （第一次推送master分支）
 $ git push origin master
 
 
+用命令git clone克隆远程库到本地库：
+$ git clone git@github.com:linxuedong/gitskills.git
+
+
+创建dev分支，然后切换到dev分支：
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+$ git branch dev
+$ git checkout dev
+
+
+用git branch命令查看当前分支：
+$ git branch
