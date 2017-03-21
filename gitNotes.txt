@@ -92,5 +92,5 @@ $ git merge dev
 
 
 删除dev分支了：
-$ git branch -d dev
+$ git branch -d dev qita
 
